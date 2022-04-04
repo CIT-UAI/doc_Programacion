@@ -1,0 +1,17 @@
+--- 
+title: "Documentación Progrmación"
+author: "Equipo de Investigación (?)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Piloto de documentación con Bookdown"
+---
+
+# Prefacio {-}
+
+En este libro iremos hablaremos sobre la programación su mundo, para poder dar una entrada, desarrollo y aclaraciones.

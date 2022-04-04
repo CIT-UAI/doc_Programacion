@@ -1,0 +1,17 @@
+# Introducción
+
+El mundo de la programación hoy en día es amplio, diverso, y cada aspecto tiene sus ventajas y desventajas, muy rara vez podrás encontrar algo donde puedas asegurar que es mejor que otra cosa, es muy importante poder decidir que aspectos usar para cada solución, hay que evitar enfrascarse en solo aspecto.
+
+Creo que una de las primeras aclaraciones importantes, es que podemos dividir la programación de software en dos, esto es debido a que hay algo que parece confundirse, muchos piensan que aprendiendo un lenguaje de programación saben programar, nada mas alejados de la realidad.
+
+Para dar un ejemplo, un carpintero usa herramientas con tal de hacer sillas, mesas, muebles o cualquier cosa de madera, en esas herramientas tendremos lijas, serruchos, reglas y una gran diversidad mas de estas.
+
+En este ejemplo, saber un lenguaje de programación son esas herramientas, sin embargo hay una gran brecha entre tener un martillo y saber martillar bien, entre tener un conjunto de herramientas y tener la experiencia, creatividad e inteligencia para llegar a hacer una silla. Por suerte estas tres grandes características son desarrollables, y gran parte del futuro no se definirá por que herramientas tienes, si, no por como desarrolles estas capacidades con tal de poder discernir que herramientas son útiles, de que forma usarlas, cuando usarlas y cuando saber el cambiarlas por otras.
+
+El saber usar las herramientas y discernir sobre ellas, son nuestra capacidad de evaluación y la capacidad de crear algoritmos, estas dos capacidades van de la mano, la creación de algoritmos es aprender a diseñar un orden sobre cuando usar una herramienta y como usarla. Para un ejemplo concreto, si necesitamos clavar un clavo, tenemos que tomar el martillo, levantarlo, como dejarlo caer para que al final, golpee en el clavo. En programación hay múltiples lenguajes de programación, pero las capacidades de creación de algoritmos y evaluación son transversal en todos.
+
+Hay dos grandes diferencias entre la profesión de carpintería y programación, una es el tiempo de cambio, la tecnología cambia rápido, la programación cambia rápido, no tendrás tiempo de dominar perfectamente un lenguaje, un programador tiene que acostumbrarse a aprender rápido, aprender a adquirir y actualizar las herramientas continuamente, y al ver una nueva, poder desarrollar el potencial de esta. Debido a eso, aunque los los lenguajes de programación son importantes, mas importante es desarrollar nuestras capacidades creativas y lógicas personales.
+
+Otra gran diferencia es la "indeterminación", la programación funciona siendo ejecutada en hardware, y tanto el software como el hardware son imperfectos, el efecto "indeterminado" hace referencia a tanto las fallas del hardware como sus limites. ¿Por que ese nombre? por que muchas veces al usar programación y dependiendo del lenguaje, cada función tiende a tener sus "limites" y pasarlos puede significar en que no sabrás que resultado vas a tener. Mientras que en carpintería rara vez veremos "un comportamiento fuera de lo ordinario", en software es uno de los desafíos.
+
+En este libro no vamos a ver un lenguaje en particular, vamos a ver sus contextos y conocimientos necesarios para poder entender la naturaleza de la programación.
