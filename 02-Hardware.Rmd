@@ -1,0 +1,25 @@
+## Hardware
+
+Tal vez se hayan animado a tratar programar, sin embargo es necesario conocer algunas bases sobre hardware, ya que estas repercutirán mucho en los lenguajes de programación.
+
+En primera instancia, un computados no tiene muchas funciones, podemos centrarlas en 3 piezas.
+
+* Los datos se almacenan
+* Los datos de mueven
+* Los datos se transforman
+
+Un PC no hace nada mas, sin embargo, para llegar a los computadores que vemos hoy en dia hace falta un buen desarrollo a cada una de esas categorías.
+
+Sin embargo, antes de comenzar con esta sección es necesario aprender los tipos de datos que tenemos.
+
+### Tipos de datos
+
+Existen 2 tipos de datos, los analógicos y los digitales.
+
+Los datos analogicos, son mayormente el originen y punto inicial de muchos datos
+
+## Almacenamiento
+
+Voy a excluir de esta sección los ROM, son muy técnicos y no siempre es conocimiento útil para un programador.
+
+Almacenamiento de datos digitales 
