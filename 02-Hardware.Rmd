@@ -16,7 +16,28 @@ Sin embargo, antes de comenzar con esta sección es necesario aprender los tipos
 
 Existen 2 tipos de datos, los analógicos y los digitales.
 
-Los datos analogicos, son mayormente el originen y punto inicial de muchos datos
+Como explicar estos conceptos por separado no siempre es claro, contare desde los analogicos.
+
+Antes de la digitalización, hemos tenido otras formas de almacenar información, por ejemplo los discos de vinilo.
+
+Basicamente una juga vibra con un sonido, y la aguja "graba" o "perfora" el disco segun lo que suena, de esta manera el disco queda con información guardada.
+
+Si miramos la ranura de un disco de vinilo podremos observar lo siguiente.
+
+![](fs::path("images", "vinyl-groove.jpg"))
+
+Un disco de vinilo idea, que graba de esta manera, deberia ser capaz de grabar una cancion de manera casi perfecta, y no solo, ¿se han preguntado que tan larga es esa linea?, esa linea donde se graba, es una linea de 460m, es muy larga, podemos grabar mucho despues de todo existe el siguiente truco.
+
+Recordemos que el mecanismo de los discos es el siguiente, se pone el reproductor/grabador a una velocidad, y podemos tanto reproducir como grabar, la velocidad y la información que grabamos no tiene que tener relacion con la velocidad de grabación, entonces podemos hacer lo siguiente.
+
+Ponemos una canción 5 minutos a grabar, y ponemos el grabador a velocidad de 1[m/s], de esa manera, de los 460m, usariamos 5m para grabar la canción, pero si podemos elegir la velocidad, entonces pongramos el grabador a 0.5[m/s], ahora tenemos el doble de espacio para grabar y con ello reproducir, aunque hay una serie de limites fisicos, podriamos en un futuro grabar musica de forma casi perfecta y mucha en un solo disco.
+
+Aunque todo esto puede sonar ideal, hay algunos puntos que repercutieron bastante, por ejemplo, ¿como podemos copiar o distribuir esta información?, es dificil imaginar como opción viable el tener una gran cantidad de maquinas copiando discos de vinilo, si vemos hoy en dia donde miles y millones de personas comparten información, no es viable. Ademas hay temos como el "ruido", los grabadores son instrumentos de gran precicion, debido a eso si alguien habla o aparece alguna vibracion se realizara mal la copia del disco.
+
+Esto va despues de introducir datos digitales
+$$Sin embargo no olvidemos aun sus grandes ventajas, un grabador de disco de vinilo ideal es capaz de grabar una "onda" (sonido) en el disco, de manera casi perfecta, y "graba" la onda, tal cual, es decir, ¿cuantos puntos tiene una curva cualquiera?, infinitos, ¿cuentos decimales tiene un numero cualquiera? infinitos, y un disco de vinilo es capaz de grabar eso. 
+
+Debido a esto, dentro de las tecnologias que nacieron, fue la digital. Este metodo es muy diferente, basicamente tenemos un juego con cajas, 
 
 ## Almacenamiento
 
