@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1.1 Hardware | Documentación Progrmación</title>
+  <meta name="description" content="Piloto de documentación con Bookdown" />
+  <meta name="generator" content="bookdown 0.25 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1.1 Hardware | Documentación Progrmación" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Piloto de documentación con Bookdown" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1.1 Hardware | Documentación Progrmación" />
+  
+  <meta name="twitter:description" content="Piloto de documentación con Bookdown" />
+  
+
+<meta name="author" content="Equipo de Investigación (?)" />
+
+
+<meta name="date" content="2022-04-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="1-introducción.html"/>
+<link rel="next" href="1.2-almacenamiento.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Documentación CIT</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#prefacio">Prefacio<span></span></a></li>
+<li class="chapter" data-level="1" data-path="1-introducción.html"><a href="1-introducción.html"><i class="fa fa-check"></i><b>1</b> Introducción<span></span></a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="1.1-hardware.html"><a href="1.1-hardware.html"><i class="fa fa-check"></i><b>1.1</b> Hardware<span></span></a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="1.1-hardware.html"><a href="1.1-hardware.html#tipos-de-datos"><i class="fa fa-check"></i><b>1.1.1</b> Tipos de datos<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="1.2-almacenamiento.html"><a href="1.2-almacenamiento.html"><i class="fa fa-check"></i><b>1.2</b> Almacenamiento<span></span></a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Documentación Progrmación</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="hardware" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Hardware<a href="1.1-hardware.html#hardware" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tal vez se hayan animado a tratar programar, sin embargo es necesario conocer algunas bases sobre hardware, ya que estas repercutirán mucho en los lenguajes de programación.</p>
+<p>En primera instancia, un computados no tiene muchas funciones, podemos centrarlas en 3 piezas.</p>
+<ul>
+<li>Los datos se almacenan</li>
+<li>Los datos de mueven</li>
+<li>Los datos se transforman</li>
+</ul>
+<p>Un PC no hace nada mas, sin embargo, para llegar a los computadores que vemos hoy en dia hace falta un buen desarrollo a cada una de esas categorías.</p>
+<p>Sin embargo, antes de comenzar con esta sección es necesario aprender los tipos de datos que tenemos.</p>
+<div id="tipos-de-datos" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Tipos de datos<a href="1.1-hardware.html#tipos-de-datos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Existen 2 tipos de datos, los analógicos y los digitales.</p>
+<p>Como explicar estos conceptos por separado no siempre es claro, contare desde los analogicos.</p>
+<p>Antes de la digitalización, hemos tenido otras formas de almacenar información, por ejemplo los discos de vinilo.</p>
+<p>Basicamente una juga vibra con un sonido, y la aguja “graba” o “perfora” el disco segun lo que suena, de esta manera el disco queda con información guardada.</p>
+<p>Si miramos la ranura de un disco de vinilo podremos observar lo siguiente.</p>
+<p><img src="fs::path(%22images%22,%20%22vinyl-groove.jpg%22)" /></p>
+<p>Un disco de vinilo idea, que graba de esta manera, deberia ser capaz de grabar una cancion de manera casi perfecta, y no solo, ¿se han preguntado que tan larga es esa linea?, esa linea donde se graba, es una linea de 460m, es muy larga, podemos grabar mucho despues de todo existe el siguiente truco.</p>
+<p>Recordemos que el mecanismo de los discos es el siguiente, se pone el reproductor/grabador a una velocidad, y podemos tanto reproducir como grabar, la velocidad y la información que grabamos no tiene que tener relacion con la velocidad de grabación, entonces podemos hacer lo siguiente.</p>
+<p>Ponemos una canción 5 minutos a grabar, y ponemos el grabador a velocidad de 1[m/s], de esa manera, de los 460m, usariamos 5m para grabar la canción, pero si podemos elegir la velocidad, entonces pongramos el grabador a 0.5[m/s], ahora tenemos el doble de espacio para grabar y con ello reproducir, aunque hay una serie de limites fisicos, podriamos en un futuro grabar musica de forma casi perfecta y mucha en un solo disco.</p>
+<p>Aunque todo esto puede sonar ideal, hay algunos puntos que repercutieron bastante, por ejemplo, ¿como podemos copiar o distribuir esta información?, es dificil imaginar como opción viable el tener una gran cantidad de maquinas copiando discos de vinilo, si vemos hoy en dia donde miles y millones de personas comparten información, no es viable. Ademas hay temos como el “ruido”, los grabadores son instrumentos de gran precicion, debido a eso si alguien habla o aparece alguna vibracion se realizara mal la copia del disco.</p>
+<p>Esto va despues de introducir datos digitales
+$$Sin embargo no olvidemos aun sus grandes ventajas, un grabador de disco de vinilo ideal es capaz de grabar una “onda” (sonido) en el disco, de manera casi perfecta, y “graba” la onda, tal cual, es decir, ¿cuantos puntos tiene una curva cualquiera?, infinitos, ¿cuentos decimales tiene un numero cualquiera? infinitos, y un disco de vinilo es capaz de grabar eso.</p>
+<p>Debido a esto, dentro de las tecnologias que nacieron, fue la digital. Este metodo es muy diferente, basicamente tenemos un juego con cajas,</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="1-introducción.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="1.2-almacenamiento.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-Hardware.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

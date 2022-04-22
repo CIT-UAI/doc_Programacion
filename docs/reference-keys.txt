@@ -1,0 +1,4 @@
+introducción
+hardware
+tipos-de-datos
+almacenamiento
